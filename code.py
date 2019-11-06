@@ -13,7 +13,7 @@ class TestLog(unittest.TestCase):
     def test_1(self):
         calc = SciCalc()
         r = calc.inverseOfLogX(10)
-        self.assertEqual(1, r)
+        self.assertEqual(1.5, r)
 
     def test_zerodivision(self):
              with self.assertRaises(ZeroDivisionError):
